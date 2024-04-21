@@ -1,9 +1,12 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import AppendData from "./appendData.jsx";
 import "./index.css";
-
+{
+  /* <link rel="stylesheet" href={process.env.PUBLIC_URL + "./index.css"} />; */
+}
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
