@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to new line on small screens */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"],
+.search-container select {
+  width: calc(50% - 5px); /* Two items per row on large screens */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.page-link {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #0056b3;
+}
+
+.page-link.active {
+  background-color: #0056b3;
+}
+
+.page-link[disabled] {
+  background-color: #ced4da;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Styles for links */
+a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .search-container input[type="text"],
+  .search-container select {
+    width: 100%; /* Full width on small screens */
+  }
+}
