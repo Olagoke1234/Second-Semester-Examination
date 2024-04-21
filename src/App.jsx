@@ -147,7 +147,7 @@ const TablePage = ({
 }) => {
   return (
     <div>
-      <h1>Github repositories List Olagoke1234</h1>
+      <h1>Github Repositories List Olagoke1234</h1>
       <div className="search-container">
         <input
           type="text"
