@@ -1,4 +1,4 @@
-# Frontend-Second-Semester-Examination-Project
+# Second-Semester-Examination-Project
 
 Implementing a Web App using GitHub API to fetch my GitHub repositories portfolio
 Show a page listing all your repositories on GitHub with pagination enabled 20mks. Bonus: Implement Search and Filter.
